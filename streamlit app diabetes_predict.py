@@ -4,7 +4,7 @@ import streamlit as st
 
 st.title('DIABETES PREDICTION ')
 
-loaded_model = pickle.load(open(r"E:\Machine Learning\Deploying ML model2\Diabetesmodel.pkl","rb"))
+loaded_model = pickle.load(open("Diabetesmodel.pkl","rb"))
 
 def Disease(input_data):
     input_data_as_numpy_array = np.asarray(input_data)
