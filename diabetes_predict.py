@@ -9,7 +9,7 @@ import pickle
 import streamlit as st
 
 # loading the saved model
-loaded_model = pickle.load(open("E:/Machine Learning/Deploying ML model/Diabetesmodel.pkl",'rb'))
+loaded_model = pickle.load(open("Diabetesmodel.pkl",'rb'))
 
 input_data1 = (4,103,60,33,192,24,0.966,33)
 
